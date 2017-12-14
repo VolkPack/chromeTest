@@ -3,12 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="tests.chromeloginTest">
+      <class name="tests.dressPurchaseFlowCompleteTest">
         <methods>
-          <include name="testValidLogin"/>
-          <include name="preSet"/>
+          <include name="selectDressAndAddOnClick"/>
         </methods>
-      </class> <!-- tests.chromeloginTest -->
+      </class> <!-- tests.dressPurchaseFlowCompleteTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

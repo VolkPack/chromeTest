@@ -1,5 +1,4 @@
 package tests;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +8,7 @@ import org.testng.annotations.Test;
 public class chromeinvalidloginTest {
 	
 	private String LOGINID = "****"; //Enter inValid Login
-	private String PASS = "****"; //Enter inValid Pass
+	//private String PASS = "****"; //Enter inValid Pass
 	
 	@Test
 	public void testInvalid() {
