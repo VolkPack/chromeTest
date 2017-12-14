@@ -1,4 +1,5 @@
-import org.junit.Test;
+package tests;
+import org.testng.annotations.Test;
 
 public class chromeinvalidloginTest {
 	
