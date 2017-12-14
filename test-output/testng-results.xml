@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29621" started-at="2017-12-14T21:47:49Z" finished-at="2017-12-14T21:48:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29621" started-at="2017-12-14T21:47:49Z" finished-at="2017-12-14T21:48:19Z">
+      <class name="tests.chromeloginTest">
+        <test-method status="PASS" signature="preSet()[pri:0, instance:tests.chromeloginTest@2f943d71]" name="preSet" is-config="true" duration-ms="1" started-at="2017-12-14T13:48:03Z" finished-at="2017-12-14T13:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSet -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:tests.chromeloginTest@2f943d71]" name="testValidLogin" duration-ms="15957" started-at="2017-12-14T13:48:03Z" finished-at="2017-12-14T13:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+      </class> <!-- tests.chromeloginTest -->
+      <class name="tests.chromeinvalidloginTest">
+        <test-method status="PASS" signature="testInvalid()[pri:0, instance:tests.chromeinvalidloginTest@bd8db5a]" name="testInvalid" duration-ms="13632" started-at="2017-12-14T13:47:50Z" finished-at="2017-12-14T13:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalid -->
+      </class> <!-- tests.chromeinvalidloginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
