@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UserSignUp {
 	private String MAIN_SITE_URL = "http://automationpractice.com/index.php";	
-	private String VALID_EMAIL = "nikitakarayev@gmail.com";
+	private String VALID_EMAIL = "autotester123@gmail.com";
 	private String VALID_FNAME = "Tony";
 	private String VALID_LNAME = "Stark";
 	private String VALID_PASS = "AvengersAssemble777";
@@ -41,8 +41,13 @@ public class UserSignUp {
 			d.findElement(By.id("email")).sendKeys(VALID_EMAIL);
 		}
 		d.findElement(By.id("passwd")).sendKeys(VALID_PASS);
-	
-				
+		d.findElement(By.xpath("//*[@id=\"days\"]/option[8]")).click();
+		d.findElement(By.xpath("//*[@id=\"months\"]/option[7]")).click();
+		d.findElement(By.xpath("//*[@id=\"years\"]/option[32]")).click();
+		d.findElement(By.id("newsletter")).click();
+		d.findElement(By.id("optin")).click();
+		
+		//d.close(); //TODO Uncomment after Testing
 	}
 	
 	private String randomizeGender() {

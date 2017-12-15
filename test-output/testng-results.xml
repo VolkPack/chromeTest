@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14638" started-at="2017-12-15T17:29:17Z" finished-at="2017-12-15T17:29:32Z">
+  <suite name="Suite" duration-ms="15350" started-at="2017-12-15T18:20:39Z" finished-at="2017-12-15T18:20:54Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14638" started-at="2017-12-15T17:29:17Z" finished-at="2017-12-15T17:29:32Z">
+    <test name="Test" duration-ms="15350" started-at="2017-12-15T18:20:39Z" finished-at="2017-12-15T18:20:54Z">
       <class name="eComerceTests.UserSignUp">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:eComerceTests.UserSignUp@2bbf4b8b]" name="setUp" is-config="true" duration-ms="5" started-at="2017-12-15T09:29:17Z" finished-at="2017-12-15T09:29:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:eComerceTests.UserSignUp@2bbf4b8b]" name="setUp" is-config="true" duration-ms="5" started-at="2017-12-15T10:20:39Z" finished-at="2017-12-15T10:20:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validSignUpMainPageFull()[pri:0, instance:eComerceTests.UserSignUp@2bbf4b8b]" name="validSignUpMainPageFull" duration-ms="14615" started-at="2017-12-15T09:29:17Z" finished-at="2017-12-15T09:29:32Z">
+        <test-method status="PASS" signature="validSignUpMainPageFull()[pri:0, instance:eComerceTests.UserSignUp@2bbf4b8b]" name="validSignUpMainPageFull" duration-ms="15320" started-at="2017-12-15T10:20:39Z" finished-at="2017-12-15T10:20:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validSignUpMainPageFull -->
