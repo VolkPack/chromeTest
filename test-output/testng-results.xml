@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15257" started-at="2017-12-14T23:51:22Z" finished-at="2017-12-14T23:51:38Z">
+  <suite name="Suite" duration-ms="29255" started-at="2017-12-15T00:22:30Z" finished-at="2017-12-15T00:23:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="15257" started-at="2017-12-14T23:51:22Z" finished-at="2017-12-14T23:51:38Z">
+    <test name="Test" duration-ms="29255" started-at="2017-12-15T00:22:30Z" finished-at="2017-12-15T00:23:00Z">
       <class name="tests.dressPurchaseFlowCompleteTest">
-        <test-method status="PASS" signature="selectDressAndAddOnClick()[pri:0, instance:tests.dressPurchaseFlowCompleteTest@2781e022]" name="selectDressAndAddOnClick" duration-ms="15234" started-at="2017-12-14T15:51:22Z" finished-at="2017-12-14T15:51:38Z">
+        <test-method status="PASS" signature="selectDressAndAddOnClick()[pri:0, instance:tests.dressPurchaseFlowCompleteTest@2781e022]" name="selectDressAndAddOnClick" duration-ms="15564" started-at="2017-12-14T16:22:30Z" finished-at="2017-12-14T16:22:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDressAndAddOnClick -->
+        <test-method status="PASS" signature="selectDressAndAddOnHover()[pri:0, instance:tests.dressPurchaseFlowCompleteTest@2781e022]" name="selectDressAndAddOnHover" duration-ms="13662" started-at="2017-12-14T16:22:46Z" finished-at="2017-12-14T16:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDressAndAddOnHover -->
       </class> <!-- tests.dressPurchaseFlowCompleteTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

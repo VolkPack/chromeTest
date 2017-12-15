@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.dressPurchaseFlowCompleteTest">
         <methods>
-          <include name="selectDressAndAddOnClick"/>
+          <include name="selectDressAndAddOnHover"/>
         </methods>
       </class> <!-- tests.dressPurchaseFlowCompleteTest -->
     </classes>
