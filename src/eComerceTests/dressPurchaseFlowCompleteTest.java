@@ -1,4 +1,4 @@
-package tests;
+package eComerceTests;
 
 import static org.testng.Assert.assertTrue;
 
@@ -69,7 +69,7 @@ public class dressPurchaseFlowCompleteTest {
 	  d.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/ul/li[2]/a")).click();
 	  d.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li/div/div[2]/div[2]/a[1]/span")).click();
 	  
-	  /** Waits untill Element Visible */
+	  /** Waits until Element Visible */
 	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/a")));
 		
 	  d.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/a")).click();

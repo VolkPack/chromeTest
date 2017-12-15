@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29255" started-at="2017-12-15T00:22:30Z" finished-at="2017-12-15T00:23:00Z">
+  <suite name="Suite" duration-ms="14638" started-at="2017-12-15T17:29:17Z" finished-at="2017-12-15T17:29:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29255" started-at="2017-12-15T00:22:30Z" finished-at="2017-12-15T00:23:00Z">
-      <class name="tests.dressPurchaseFlowCompleteTest">
-        <test-method status="PASS" signature="selectDressAndAddOnClick()[pri:0, instance:tests.dressPurchaseFlowCompleteTest@2781e022]" name="selectDressAndAddOnClick" duration-ms="15564" started-at="2017-12-14T16:22:30Z" finished-at="2017-12-14T16:22:46Z">
+    <test name="Test" duration-ms="14638" started-at="2017-12-15T17:29:17Z" finished-at="2017-12-15T17:29:32Z">
+      <class name="eComerceTests.UserSignUp">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:eComerceTests.UserSignUp@2bbf4b8b]" name="setUp" is-config="true" duration-ms="5" started-at="2017-12-15T09:29:17Z" finished-at="2017-12-15T09:29:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectDressAndAddOnClick -->
-        <test-method status="PASS" signature="selectDressAndAddOnHover()[pri:0, instance:tests.dressPurchaseFlowCompleteTest@2781e022]" name="selectDressAndAddOnHover" duration-ms="13662" started-at="2017-12-14T16:22:46Z" finished-at="2017-12-14T16:23:00Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validSignUpMainPageFull()[pri:0, instance:eComerceTests.UserSignUp@2bbf4b8b]" name="validSignUpMainPageFull" duration-ms="14615" started-at="2017-12-15T09:29:17Z" finished-at="2017-12-15T09:29:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectDressAndAddOnHover -->
-      </class> <!-- tests.dressPurchaseFlowCompleteTest -->
+        </test-method> <!-- validSignUpMainPageFull -->
+      </class> <!-- eComerceTests.UserSignUp -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
