@@ -62,11 +62,13 @@ public class dressPurchaseFlowCompleteTest {
 	  d.get(MAIN_SITE_URL);
 	  d.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS); //Waits till site is loaded
 	  e = d.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/a"));
-	  a.moveToElement(e).perform();
+	  a.moveToElement(e).perform(); //Hover over Element
+	  /** Wait Until Bar Loads up and element visible*/
 	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/ul/li[2]/a")));
 
 	  d.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/ul/li[2]/a")).click();
 	  d.findElement(By.xpath("//*[@id=\"center_column\"]/ul/li/div/div[2]/div[2]/a[1]/span")).click();
+	  
 	  /** Waits untill Element Visible */
 	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/a")));
 		
