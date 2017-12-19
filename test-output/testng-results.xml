@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14446" started-at="2017-12-18T19:41:46Z" finished-at="2017-12-18T19:42:01Z">
+  <suite name="Suite" duration-ms="13029" started-at="2017-12-19T18:10:00Z" finished-at="2017-12-19T18:10:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14446" started-at="2017-12-18T19:41:46Z" finished-at="2017-12-18T19:42:01Z">
+    <test name="Test" duration-ms="13029" started-at="2017-12-19T18:10:00Z" finished-at="2017-12-19T18:10:13Z">
       <class name="eComerceTests.TestCases.MainPageTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:eComerceTests.TestCases.MainPageTests@2bbf4b8b]" name="setUp" is-config="true" duration-ms="13" started-at="2017-12-18T11:41:46Z" finished-at="2017-12-18T11:41:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:eComerceTests.TestCases.MainPageTests@2bbf4b8b]" name="setUp" is-config="true" duration-ms="11" started-at="2017-12-19T10:10:00Z" finished-at="2017-12-19T10:10:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:eComerceTests.TestCases.MainPageTests@2bbf4b8b]" name="test" duration-ms="14419" started-at="2017-12-18T11:41:46Z" finished-at="2017-12-18T11:42:01Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:eComerceTests.TestCases.MainPageTests@2bbf4b8b]" name="test" duration-ms="13006" started-at="2017-12-19T10:10:00Z" finished-at="2017-12-19T10:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
